@@ -164,8 +164,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Email: tu.email@ejemplo.com
+- GitHub: [Juandelsur](https://github.com/Juandelsur)
+- Email: juan.munoz6895@egmail.com
 
 ## 🙏 Agradecimientos
 
