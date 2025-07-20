@@ -1,0 +1,68 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Paleta Verde y Blanco */
+  --primary-green: #28a745;
+  --primary-green-dark: #1e7e34;
+  --primary-green-light: #d4edda;
+  --secondary-green: #20c997;
+  --accent-green: #6f9654;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+  --border-gray: #dee2e6;
+  --text-dark: #333;
+  --text-muted: #6c757d;
+
+  color-scheme: light;
+  color: var(--text-dark);
+  background-color: var(--light-gray);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e8 100%);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--primary-green);
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background-color: var(--primary-green-dark);
+  transform: translateY(-1px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid var(--primary-green);
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  background-color: var(--text-muted);
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
